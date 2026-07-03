@@ -33,6 +33,7 @@ const otpStore = new Map<string, { otp: string; expires: number }>();
 
 async function startServer() {
   const app = express();
+  app.set("trust proxy", 1);
   const PORT = 3000;
 
   // 1. Enterprise Security Middleware Configurations
