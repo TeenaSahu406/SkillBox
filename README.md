@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SkillBox
 
-# Run and deploy your AI Studio app
+SkillBox is a full-stack job portal that connects job seekers with recruiters. Candidates can create profiles, apply for jobs, and recruiters can post and manage job openings.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/81527a3d-6948-4ea2-b25b-37ab2feedf59
+- React
+- TypeScript
+- Vite
+- Express.js
+- Supabase
+- Gemini AI
+- Nodemailer
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+## Live Demo
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+https://skillbox-h8pv.onrender.com
+
+## GitHub Repository
+
+https://github.com/TeenaSahu406/SkillBox
