@@ -1,0 +1,6 @@
+{
+  "name": "SkillBox",
+  "description": "A professional and modern job portal where recruiters post jobs and candidates showcase skills with interactive portfolio and social media integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
